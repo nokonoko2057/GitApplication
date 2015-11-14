@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var la: UILabel!
-    var num :Int = 0 
+    var num :Int = 0
+
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +27,7 @@ class ViewController: UIViewController {
         
         num++
         la.text = String(num)
+        NSLog("nokonokonokonoko")
     }
 
 }
