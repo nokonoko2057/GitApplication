@@ -28,6 +28,7 @@ class ViewController: UIViewController {
         num++
         la.text = String(num)
         NSLog("nokonokonokonoko")
+        NSLog("test")
     }
 
 }
